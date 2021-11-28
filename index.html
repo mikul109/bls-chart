@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Employment Statistics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="chart.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.js"
+      integrity="sha512-CWVDkca3f3uAWgDNVzW+W4XJbiC3CH84P2aWZXj+DqI6PNbTzXbl1dIzEHeNJpYSn4B6U8miSZb/hCws7FnUZA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="script.js" defer></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div style="height: 2px; background-color: rgb(195,68,175);"></div>
+    <div class="top-banner">
+      <p class="header"><i class="far fa-chart-bar"></i>     Data from the US Bureau of Labor Statistics</p>
+      <p class="disclaimer">BLS.gov cannot vouch for the data or analyses derived from these data after the data have been retrieved from BLS.gov.</p>
+    </div>
+    <div class="chart-container">
+      <div class="title-container">
+        <p class="title">Employment Statistics</p>
+        <p class="subtitle">Number of Employees in Thousands</p>
+      </div>
+      <div class="info-container">
+        <p class="info">Click on the box of each economic sector(s) to reveal its data.</p>
+      </div>
+      <div id="myChart-container">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+  </body>
+</html>

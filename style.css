@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:rgb(30,30,47);
+  font-family:  "Poppins", sans-serif;
+}
+
+.top-banner {
+  margin-bottom: 30px;
+  height: 50px;
+  text-align: left;
+}
+
+.header {
+  font-size: 120%;
+  text-align: left;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+.disclaimer {
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 80%;
+  color:#525f7f;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+.title {
+  font-size: 13px;
+  text-align: left;
+  color: grey;
+  padding-top: 15px;
+  margin-left: 15px;
+}
+
+.subtitle {
+  font-size: 160%;
+  text-align: left;
+  color: white;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.info-container {
+  text-align: left;
+  width:31vw;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  background-color: rgb(195,68,175);
+  border: solid 1px rgb(195,68,175);
+  border-radius:5px;
+}
+
+.info {
+  text-align: center;
+  font-size: 90%;
+  color: white;
+}
+
+.chart-container {
+  background-color: rgb(39,41,61);
+  position: relative;
+  height:100vh;
+  width:90vw;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  box-shadow:  0 0 5px  rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 5px  rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 0 5px  rgba(0,0,0,0.3);
+  -o-box-shadow: 0 0 5px  rgba(0,0,0,0.3);
+  border-radius:5px;
+}
+
+.error {
+  margin: 15px;
+  font-size: 90%;
+  color: white;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: rgb(195,68,175);
+}
+
+a:active {
+  color: rgb(195,68,175);
+}
